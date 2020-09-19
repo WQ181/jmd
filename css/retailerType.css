@@ -1,0 +1,151 @@
+/* 轮播图 */
+.header {
+	width: 100%;
+	height: 380upx;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+/* search */
+.search-item {
+	width: 100%;
+	height: 120upx;
+	background-color: #f3f3f3;
+	margin-top: 10upx;
+	display: flex;
+	align-content: center;
+	justify-content: flex-start;
+}
+
+.item {
+	width: 700upx;
+	height: 60upx;
+	background-color: white;
+	margin: 20upx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.input {
+	font-size: 30upx;
+	margin-left: 10upx;
+	width: 100%;
+	/* color: #f3f3f3; */
+}
+
+.search-btn {
+	font-size: 30upx;
+	width: 100upx;
+	/* height: 50upx; */
+	height: 100%;
+	text-align: center;
+	/* margin-left: 200upx; */
+	background-color: #F3F3F3;
+}
+
+/* 会员以及商户入驻 */
+.vipAndshop {
+	width: 100%;
+	height: 80upx;
+	/* background-color: yellow; */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.vip {
+	width: 48%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 36upx;
+	color: #808080;
+}
+
+.vip-img {
+	width: 50upx;
+	height: 40upx;
+	padding-right: 15upx;
+}
+
+.line {
+	width: 4%;
+	height: 90%;
+	margin-bottom: 20upx;
+}
+
+.shop {
+	width: 48%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 36upx;
+	color: #808080;
+}
+
+.shop-img {
+	width: 50upx;
+	height: 40upx;
+	padding-right: 15upx;
+}
+
+/* 商家列表 */
+.shop-list {
+	width: 100%;
+	height: 160upx;
+	margin: 0 26upx 26upx 26upx;
+	border-bottom: 1upx solid #ffc0cb;
+	display: flex;
+	/* flex-direction: row; */
+	align-items: center;
+}
+
+.picture {
+	width: 120upx;
+	height: 120upx;
+	/* padding: 20upx; */
+}
+
+.intro {
+	width: 480upx;
+	padding: 20upx;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.name {
+	font-size: 30upx;
+	width: 400upx;
+	color: #ff0000;
+}
+
+.addr {
+	margin-top: 10upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.dingwei {
+	width: 30upx;
+	height: 30upx;
+}
+
+.distance {
+	margin-left: 10upx;
+	font-size: 25upx;
+	color: #ff0000;
+}
+
+.arrows {
+	width: 50upx;
+	height: 50upx;
+	/* padding-left: 260upx; */
+}

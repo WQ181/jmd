@@ -1,0 +1,122 @@
+page {
+	background-color: #F3F3F3;
+}
+.edit-attention{
+	padding: 20upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.checkbox-box {
+	display: flex;
+	align-items: center;
+	margin-right: 20upx;
+}
+
+.checkbox {
+	width: 35upx;
+	height: 35upx;
+	border-radius: 100%;
+	border: solid 2upx #f06c7a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.on {
+	width: 25upx;
+	height: 25upx;
+	border-radius: 100%;
+	background-color: #f06c7a;
+}
+
+.text {
+	font-size: 28upx;
+	margin-left: 10upx;
+}
+
+.body {
+	display: flex;
+	flex-direction: row;
+	/* align-items: center; */
+	padding: 30upx;
+	background-color: white;
+}
+
+.img {
+	width: 150upx;
+	height: 150upx;
+
+}
+
+.infor {
+	margin-left: 30upx;
+	display: flex;
+	flex-direction: column;
+}
+
+.price {
+	margin-top: 40upx;
+	color: #228B22;
+}
+
+/* 脚步菜单 */
+.footer {
+	width: 100%;
+	padding: 0 4%;
+	background-color: #fbfbfb;
+	height: 100upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28upx;
+	position: fixed;
+	bottom: 0upx;
+	z-index: 5;
+}
+
+.delBtn {
+	border: solid 1upx #f06c7a;
+	color: #f06c7a;
+	padding: 0 30upx;
+	height: 50upx;
+	border-radius: 30upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.settlement {
+	width: 64%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+
+}
+
+.sum {
+	width: 54%;
+	font-size: 28upx;
+	margin-right: 10upx;
+	display: flex;
+	justify-content: flex-end;
+
+
+}
+
+.money {
+	font-weight: 600;
+}
+
+.btn {
+	padding: 0 30upx;
+	height: 50upx;
+	background-color: #f06c7a;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 30upx;
+}

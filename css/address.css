@@ -1,0 +1,122 @@
+view {
+	display: flex;
+}
+
+.add {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 120upx;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	box-shadow: 0upx 5upx 10upx rgba(0, 0, 0, 0.4);
+	width: 70%;
+	height: 80upx;
+	border-radius: 80upx;
+	background-color: #f06c7a;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	font-size: 30upx;
+}
+
+.icon {
+	height: 80upx;
+	color: #fff;
+	font-size: 30upx;
+	justify-content: center;
+	align-items: center;
+}
+
+.list {
+	flex-wrap: wrap;
+}
+
+.row {
+	width: 96%;
+	padding: 20upx 2%;
+}
+
+.left {
+	width: 90upx;
+	flex-shrink: 0;
+	align-items: center;
+}
+
+.head {
+	width: 70upx;
+	height: 70upx;
+	background: linear-gradient(to right, #ccc, #aaa);
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	border-radius: 60upx;
+	font-size: 35upx;
+}
+
+.center {
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.name-tel {
+	width: 100%;
+	align-items: baseline;
+}
+
+.name {
+	font-size: 34upx;
+}
+
+.tel {
+	margin-left: 30upx;
+	font-size: 24upx;
+	color: #777;
+}
+
+.default {
+
+	font-size: 22upx;
+
+	background-color: #f06c7a;
+	color: #fff;
+	padding: 0 18upx;
+	border-radius: 24upx;
+	margin-left: 20upx;
+}
+
+.address {
+	width: 100%;
+	font-size: 24upx;
+	align-items: baseline;
+	color: #777;
+}
+
+.right {
+	flex-shrink: 0;
+	align-items: center;
+	margin-left: 20upx;
+
+}
+
+.cuIcon-edit {
+	justify-content: center;
+	align-items: center;
+	width: 60upx;
+	height: 60upx;
+	border-left: solid 1upx #aaa;
+	font-size: 40upx;
+	color: #777;
+}
+
+.cuIcon-delete {
+	justify-content: center;
+	align-items: center;
+	width: 40upx;
+	height: 40upx;
+	font-size: 40upx;
+	color: #777;
+}

@@ -1,0 +1,174 @@
+/* head */
+	.flex-x {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.flex-y {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.head {
+		padding-top: 70upx;
+		height: 300upx;
+		width: 100%;
+		background-color: #EB1F42;
+	}
+
+	.head1 {
+		height: 100upx;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.head2 {
+		margin-left: 20upx;
+	}
+	/* 右边的样式 */
+	.right{
+		display: flex;
+		flex-direction: row;
+		margin: 20upx;
+	}
+	.cuIcon-qrcode{
+		font-size: 44upx;
+		color: white;
+		margin-right: 30upx;
+	}
+	.cuIcon-shop{
+		font-size: 44upx;
+		color: white;
+		margin-right: 30upx;
+	}
+	.cuIcon-share{
+		font-size: 40upx;
+		color: white;
+	}
+
+	.viaImg {
+		width: 90upx;
+		height: 90upx;
+	}
+	.vipImg{
+		width: 70upx;
+		height: 70upx;
+	}
+
+	.name {
+		margin-left: 20upx;
+		color: white;
+		font-size: 30upx;
+		text-align: left;
+	}
+
+	.store {
+		margin-right: 20upx;
+	}
+
+	.upgrade {
+		height: 90upx;
+		width: 95%;
+		margin: 50upx auto 0upx;
+		background-color: #F6E0AF;
+		justify-content: space-between;
+		border-top-right-radius: 15upx;
+		border-top-left-radius: 15upx;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.vip {
+		margin-left: 15upx;
+	}
+
+	.text {
+		margin-left: 15upx;
+		height: 90upx;
+		line-height: 90upx;
+	}
+
+	.frame {
+		height: 50upx;
+		width: 100upx;
+		border: 2upx solid #F37B1D;
+		border-radius: 10upx;
+		text-align: center;
+		margin-right: 20upx;
+	}
+
+	/* body */
+	.body {
+		height: 900upx;
+		width: 100%;
+		background-color: #F0F1F5;
+	}
+
+	/* neck */
+	.neck {
+		height: 300upx;
+		width: 95%;
+		background-color: #FFFFFF;
+		margin: 0upx auto;
+		border-bottom-right-radius: 15upx;
+		border-bottom-left-radius: 15upx;
+		padding-top: 5upx;
+	}
+
+	.neck1 {
+		/* height: 150upx; */
+		width: 100%;
+		padding-left: 20upx;
+		justify-content: space-between;
+	}
+
+	.money1 {
+		font-size: 50upx;
+		color: red;
+		text-align: left;
+	}
+
+	.award {
+		margin-top: 50upx;
+		text-align: center;
+		line-height: 60upx;
+		height: 60upx;
+		width: 440upx;
+		background-color: #F6E0AF;
+		border-top-left-radius: 45upx;
+		border-bottom-left-radius: 45upx;
+	}
+
+	.neck2 {
+		margin-top: 20upx;
+		justify-content: space-around;
+		/* height: 150upx; */
+		width: 100%;
+		font-size: 30upx;
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.rmb {
+		font-size: 34upx;
+	}
+
+	.chest {
+		margin-top: 20upx;
+		height: 140upx;
+		width: 95%;
+		margin-left: 2.5%;
+		background-color: white;
+	}
+
+	.img {
+		width: 50upx;
+		height: 50upx;
+	}

@@ -1,0 +1,164 @@
+page {
+	position: relative;
+	background-color: #fff;
+}
+
+.status {
+	width: 100%;
+	height: 0;
+	position: fixed;
+	z-index: 10;
+	background-color: #fff;
+	top: 0;
+	/*  #ifdef  APP-PLUS  */
+	height: var(--status-bar-height); //覆盖样式
+	/*  #endif  */
+}
+
+
+/* 底部栏 */
+.footer {
+	width: 100%;
+	padding: 0 4%;
+	background-color: blanchedalmond;
+	height: 100upx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 28upx;
+	position: fixed;
+	bottom: 100upx;
+	z-index: 5;
+}
+
+.delBtn {
+	border: solid 1upx #f06c7a;
+	color: #f06c7a;
+	padding: 0 30upx;
+	height: 50upx;
+	border-radius: 30upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.settlement {
+	width: 65%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.sum {
+	/* // width: 50%; */
+	font-size: 28upx;
+	margin-right: 10upx;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.money {
+	font-weight: 600;
+}
+
+.btn {
+	padding: 0 30upx;
+	height: 50upx;
+	background-color: #f06c7a;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30upx;
+}
+
+/* checkbox */
+.checkbox-box {
+	display: flex;
+	align-items: center;
+}
+
+.checkbox {
+	width: 35upx;
+	height: 35upx;
+	border-radius: 100%;
+	border: solid 2upx #f06c7a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.on {
+	width: 25upx;
+	height: 25upx;
+	border-radius: 100%;
+	background-color: #f06c7a;
+}
+
+.text {
+	font-size: 28upx;
+	margin-left: 10upx;
+}
+
+/* 中部 */
+.goods-list {
+	width: 100%;
+	/* // padding: 20upx 0 120upx 0; */
+	margin-bottom: 220upx;
+	height: 80%;
+	/* // background-color: #a7a7a7; */
+}
+.cuIcon-cart{
+	font-size: 100upx;
+	width: 200upx;
+	margin-left: 35%;
+	text-align: center;
+	border: 5upx solid #F06C7A;
+	border-radius: 50%;
+	margin-top: 100upx;
+	margin-bottom: 50upx;
+}
+
+.tis {
+	width: 100%;
+	height: 60upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32upx;
+}
+
+.row {
+	width: calc(92%);
+	height: calc(22vw + 40upx);
+	margin: 20upx auto;
+
+	border-radius: 15upx;
+	box-shadow: 0upx 5upx 20upx rgba(0, 0, 0, 0.1);
+	display: flex;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	z-index: 4;
+	border: 0;
+
+
+}
+
+.menu {
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	color: #fff;
+	z-index: 2;
+}
+
+.icon {
+	color: #fff;
+	/* // font-size: 25upx; */
+}

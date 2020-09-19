@@ -1,0 +1,297 @@
+/* head */
+.flex-x {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.flex-y {
+	display: flex;
+	flex-direction: column;
+}
+
+.head {
+	padding-top: 40upx;
+	height: 200upx;
+	width: 100%;
+	background-color: #EB1F42;
+}
+
+.head1 {
+	height: 100upx;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.head2 {
+	margin-left: 20upx;
+}
+
+/* 右边的样式 */
+.right {
+	display: flex;
+	flex-direction: row;
+	margin: 20upx;
+}
+.user{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.cuIcon-qrcode {
+	font-size: 44upx;
+	color: white;
+	margin-right: 30upx;
+}
+.user-user{
+	color: white;
+	text-align: center;
+	margin-right: 5upx;
+}
+
+.cuIcon-shop {
+	font-size: 44upx;
+	color: white;
+	margin-right: 30upx;
+}
+.retailer-retailer{
+	color: white;
+}
+.cuIcon-share {
+	font-size: 40upx;
+	color: white;
+	/* margin-top: 10upx; */
+}
+
+.viaImg {
+	width: 90upx;
+	height: 90upx;
+	border-radius: 50%;
+}
+
+.name {
+	margin-left: 20upx;
+	color: white;
+	font-size: 30upx;
+	text-align: left;
+}
+
+.store {
+	margin-right: 20upx;
+}
+
+.upgrade {
+	height: 90upx;
+	width: 95%;
+	margin: 50upx auto 0upx;
+	background-color: #F6E0AF;
+	justify-content: space-between;
+	border-top-right-radius: 15upx;
+	border-top-left-radius: 15upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.frame {
+	height: 50upx;
+	width: 100upx;
+	border: 2upx solid #F37B1D;
+	border-radius: 10upx;
+	text-align: center;
+	margin-right: 20upx;
+}
+
+/* body */
+.body {
+	/* height: 900upx; */
+	width: 100%;
+	background-color: white;
+}
+
+.num {
+	font-size: 50rpx;
+	color: #EB1F42;
+}
+
+/* neck */
+.neck {
+	height: 300upx;
+	width: 95%;
+	background-color: #FFFFFF;
+	margin: 0upx auto;
+	border-bottom-right-radius: 15upx;
+	border-bottom-left-radius: 15upx;
+	padding-top: 5upx;
+}
+
+.neck1 {
+	width: 100%;
+	padding-left: 20upx;
+	justify-content: space-between;
+}
+
+.money1 {
+	font-size: 30upx;
+	color: red;
+	text-align: left;
+}
+
+.money2 {
+	border: #000000 solid 1rpx;
+	width: 200rpx;
+}
+
+.award {
+	margin-top: 20upx;
+	text-align: center;
+	line-height: 100upx;
+	height: 100upx;
+	width: 240upx;
+	background-color: #F6E0AF;
+	border-top-left-radius: 45upx;
+	border-bottom-left-radius: 45upx;
+	font-size: 40rpx;
+}
+
+.neck2 {
+	/* margin-top: 20upx; */
+	justify-content: space-around;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	border-bottom: #000000 solid 2rpx;
+}
+
+.center {
+	text-align: center;
+}
+
+.rmb {
+	font-size: 34upx;
+}
+
+.chest {
+	margin-top: 20upx;
+	height: 100upx;
+	padding: 10upx;
+	/* width: 95%; */
+	/* margin-left: 2.5%; */
+	background-color: white;
+
+}
+
+.cht {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20rpx;
+	justify-content: space-between;
+}
+.cht-left{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: -10upx;
+	margin-left: 20upx;
+}
+.cht-name{
+	margin-left: 20upx;
+}
+.cuIcon-peoplelist{
+	font-size: 40upx;
+}
+.time{
+	margin-right: 20upx;
+}
+/* 积分模块 */
+.plate {
+	/* width: 92%; */
+	/* margin: 0 4%; */
+	padding: 0 0 30upx 0;
+	border-bottom: solid 2upx #f6f6f6;
+	background-color: white;
+	display: flex;
+	/* justify-content: space-between; */
+	flex-wrap: wrap;
+}
+
+.category {
+	width: 25%;
+	margin-top: 10upx;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.mg {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.ig {
+	width: 10vw;
+	height: 10vw;
+	border-radius: 50rpx;
+}
+
+.text {
+	margin-top: 10upx;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 20upx;
+	color: #3c3c3c;
+}
+
+/* 公告栏 */
+.notice {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.uni-padding-wrap {
+	width: 100%;
+
+}
+
+.word {
+	position: absolute;
+	padding-right: 15rpx;
+	font-size: 35rpx;
+	font-family: tahoma;
+	font-weight: bolder;
+}
+
+.w1 {
+	left: 15rpx;
+	color: red;
+	padding: 1rpx;
+}
+
+.w2 {
+	left: 50rpx;
+	border-right: 1upx solid skyblue;
+}
+
+.redian-img {
+	position: absolute;
+	left: 110rpx;
+	width: 50rpx;
+	height: 60rpx;
+}
+
+.redian-infor {
+	width: 580rpx;
+	position: absolute;
+	left: 140rpx;
+	font-size: 24upx;
+	color: red;
+}
+.cuIcon-friend{
+	font-size: 50upx;
+}

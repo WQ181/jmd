@@ -1,0 +1,79 @@
+.cu-form-group .title {
+	min-width: calc(4em + 15px);
+}
+
+/* 右上角小标签 */
+.right-label {
+	width: 100%;
+	height: 80upx;
+	background-color: #f3f3f3;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.label-text {
+	color: red;
+	margin-right: 20upx;
+	text-decoration: underline;
+	letter-spacing: 3upx;
+	font-family: 'FangSong';
+}
+
+/* 头像 */
+.infor-avatarUrl {
+	width: 100%;
+	height: 150upx;
+	padding: 10upx 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 20upx solid #f3f3f3;
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.avatarUrl-name {
+	margin-left: 20upx;
+	color: red;
+}
+
+.avatarUrl-img {
+	width: 90upx;
+	height: 90upx;
+	border-radius: 50%;
+	margin-right: 40upx;
+}
+
+.arrows {
+	width: 30upx;
+	height: 30upx;
+}
+
+/* 昵称 */
+.infor-nickName {
+	width: 100%;
+	height: 100upx;
+	color: red;
+	padding: 20upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 20upx solid #f3f3f3;
+}
+
+.nickName-name {
+	margin-left: 50upx;
+	color: black;
+	font-size: 30upx;
+}
+
+.submit-btn {
+	width: 80%;
+	margin-top: 20upx;
+}

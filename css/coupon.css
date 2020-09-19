@@ -1,0 +1,137 @@
+.head{
+	padding: 10upx 40upx 10upx 0;
+	background-color: #FADBD9;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: 40upx;
+}
+
+.coupon-list {
+	width: 100%;
+	/* margin: 30rpx auto; */
+}
+
+.coupon-list .item {
+	width: 94%;
+	margin: 20upx auto;
+	height: 185rpx;
+	margin-bottom: 20rpx;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden
+}
+
+.coupon-list .item .float-li {
+	border-radius: 20rpx;
+	width: 190rpx;
+	height: 100%;
+	border-right: 2rpx dashed rgba(255, 255, 255, .3);
+	background-color: rgb(253, 114, 212);
+}
+
+.coupon-list .item .float-rig {
+	border-radius: 20rpx;
+	width: 570rpx;
+	/* padding-right: 10rpx; */
+	height: 100%;
+	background-color: #EEEEEE;
+
+}
+
+.coupon-left .t {
+	position: absolute;
+}
+
+.coupon-left .t1 {
+	left: 20rpx;
+	top: 60rpx;
+	font-size: 30rpx;
+	color: #EEEEEE;
+}
+
+.coupon-rig {
+	position: relative;
+}
+
+.coupon-rig .t {
+	position: absolute;
+}
+
+.coupon-rig .t1 {
+	left: 20rpx;
+	top: 15rpx;
+	font-size: 35rpx;
+}
+
+.coupon-rig .t2 {
+	left: 20rpx;
+	top: 60rpx;
+	font-size: 28rpx;
+}
+
+.coupon-rig .t3 {
+	left: 360rpx;
+	top: 135rpx;
+	text-align: center;
+	border-radius: 40rpx;
+	border: rgb(253, 114, 212) solid 1rpx;
+	width: 150rpx;
+	height: 40rpx;
+	font-size: 26rpx;
+	background-color: #EEEEEE;
+	color: rgb(253, 114, 212);
+}
+
+.coupon-rig .t4 {
+	left: 20rpx;
+	top: 140rpx;
+	font-size: 20rpx;
+	color: #999999;
+	/* width: 260rpx;height: 20rpx; */
+}
+.coupon-rig .t5{
+	left: 20upx;
+	top: 100upx;
+	font-size: 25rpx;
+}
+.coupon-rig .t6 {
+	left: 140rpx;
+	top: 140rpx;
+	font-size: 20rpx;
+	color: #999999;
+	/* width: 260rpx;height: 20rpx; */
+}
+
+.stamp i {
+	position: absolute;
+	left: 78%;
+	top: 30rpx;
+	height: 40rpx;
+	width: 200rpx;
+	background-color: rgb(253, 114, 212);
+	transform: rotate(45deg);
+	text-align: center;
+	font-size: 25rpx;
+	color: #EEEEEE;
+}
+
+.circle_list {
+	position: absolute;
+	top: 20rpx;
+}
+
+.circle_list1 {
+	left: -85rpx;
+}
+
+.circle_list>li {
+	background-color: #eee;
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+	margin-bottom: 10rpx;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset;
+}

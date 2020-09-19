@@ -1,0 +1,269 @@
+page {
+	background: white;
+}
+
+.container {
+	/* height: 100%; */
+	display: flex;
+	flex-direction: column;
+}
+
+.install {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	color: black;
+	background: linear-gradient(120deg, #e75d3c, #e75d3c);
+	padding-left: 690upx;
+	padding-top: 20upx;
+}
+
+.myinfo {
+	width: 100%;
+	height: 360upx;
+	padding-top: 40upx;
+	background-size: cover;
+	background-color: snow;
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-between; */
+	align-content: space-around;
+	/* align-content: center; */
+	align-items: center;
+	background: linear-gradient(120deg, #e75d3c, #e75d3c);
+	border-bottom-left-radius: 18%;
+	border-bottom-right-radius: 18%;
+}
+
+/* 充值 */
+.recharage {
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.recharage-buy {
+	width: 100upx;
+	border: 2upx solid floralwhite;
+	text-align: center;
+	border-radius: 20upx;
+}
+
+.myicon {
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	/* margin-top: 40upx; */
+}
+
+.myicon image {
+	width: 128upx;
+	height: 128upx;
+	margin: 10upx;
+	border-radius: 50%;
+	box-shadow: 5upx 5upx 10upx #c4c4c4;
+	margin-top: -138upx;
+}
+
+.myicon text {
+	font-size: 30upx;
+	color: #565656;
+}
+
+/* 积分 */
+.intergral {
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+.intergral-btn{
+	width: 100upx;
+	border: 2upx solid floralwhite;
+	text-align: center;
+	border-radius: 20upx;
+}
+
+.head {
+	font-size: 38upx;
+	font-weight: 550;
+	color: #565656;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	/* margin-left: 10px; */
+}
+
+.head text {
+	width: 100%;
+}
+
+.head image {
+	width: 50upx;
+	height: 50upx;
+	margin-right: 10upx;
+}
+
+/* 订单 */
+.myOrder{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* border-bottom: 1upx solid #F9D7EA; */
+	/* padding-bottom: 20upx; */
+	margin: 14upx;
+	margin-left: 60upx;
+	margin-right: 60upx;
+}
+.order-img{
+	width: 50upx;
+	height: 50upx;
+	
+}
+.right{
+	display: flex;
+	flex-direction: row;
+}
+.order-word{
+	/* margin-left: 60upx; */
+}
+
+/* 小的数字显示 */
+.smallTable{
+	width: 80upx;
+	height: 40upx;
+	text-align: center;
+	background-color: orangered;
+	border-radius: 30upx;
+	margin-top: 8upx;
+	margin-left: 10upx;
+	color: floralwhite;
+}
+
+/* 客服 */
+.service {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+}
+.service-img{
+	width: 50upx;
+	height: 50upx;
+	margin-right: 20upx;
+}
+
+.userinfo-avatar {
+	width: 80upx;
+	height: 80upx;
+	margin: 10upx;
+	border-radius: 50%;
+}
+
+.roleinfo-avatar {
+	width: 60upx;
+	height: 60upx;
+	margin: 10upx;
+	border-radius: 50%;
+}
+
+.mynavigator {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+	/* margin-top: 5px; */
+}
+
+.navitems {
+	width: 200upx;
+	height: 200upx;
+	margin: 10upx, 10upx, 0, 10upx;
+	text-align: center;
+	font-weight: 7500;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 26upx;
+	color: grey;
+	border: none;
+}
+
+.navitems view {
+	width: 150upx;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10%;
+
+}
+
+.navitems view image {
+	width: 40upx;
+	height: 40upx;
+}
+
+.dividingstrip {
+	width: 100%;
+	height: 35upx;
+	background-color: whitesmoke;
+}
+
+/* 优惠券 */
+.user-design {
+	width: 100%;
+	/* height: 40%; */
+	background-color: white;
+	border-radius: 5px;
+	/* border-bottom: 20upx solid #ffc0cb; */
+}
+
+.discount {
+	margin: 25upx 25upx 0 25upx;
+	padding-bottom: 25upx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1upx solid #F3F3F3;
+}
+
+.left {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: none;
+}
+
+.discount-img {
+	width: 50upx;
+	height: 50upx;
+}
+
+.discount-name {
+	margin-left: 20upx;
+	font-size: 30upx;
+}
+
+.arrows {
+	width: 45upx;
+	height: 45upx;
+}

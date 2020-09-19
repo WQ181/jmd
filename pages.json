@@ -1,0 +1,173 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "嘉美达共享商城"
+			}
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		}, {
+			"path": "pages/address/address-edit",
+			"style": {}
+		}, {
+			"path": "pages/attention/attention",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "编辑", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+								"fontSize": "30upx"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/balance/balance",
+			"style": {}
+		},
+		{
+			"path": "pages/retailerInfo/retailerInfo",
+			"style": {
+				"navigationBarTitleText": "商家详情"
+			}
+		}, {
+			"path": "pages/retailerInfo/vip/vip",
+			"style": {
+				"navigationBarTitleText": "会员中心"
+			}
+		}, {
+			"path": "pages/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券列表",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "我的", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+								"fontSize": "30upx"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/retailerType/retailerType",
+			"style": {
+				"navigationBarTitleText": "商家分类"
+			}
+		}, {
+			"path": "pages/retailerUnit/retailerUnit",
+			"style": {}
+		}, {
+			"path": "pages/indent/indent",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/indent/evaluate",
+			"style": {
+				"navigationBarTitleText": "个人评价"
+			}
+		},
+		{
+			"path": "pages/retailerUnit/retailerUnit",
+			"style": {
+				"navigationBarTitleText": "商户入驻"
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		}, {
+			"path": "pages/install/install",
+			"style": {
+				"navigationBarTitleText": "个人信息修改"
+			}
+		}, {
+			"path": "pages/intergral/intergral",
+			"style": {
+				"navigationBarTitleText": "积分商城"
+			}
+		}, {
+			"path": "pages/coupon/mycoupon",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		}, {
+			"path": "pages/balance/rechargeInfo/rechargeInfo",
+			"style": {}
+		}, {
+			"path": "pages/productDetails/productDetails",
+			"style": {}
+		}, {
+			"path": "pages/comformation/comformation",
+			"style": {}
+		}, {
+			"path": "pages/distribution/distribution",
+			"style": {}
+		}, {
+			"path": "pages/balance/balanceEnquiry/balanceEnquiry",
+			"style": {}
+		}, {
+			"path": "pages/retailerCommodity/retailerCommodity",
+			"style": {}
+		}, {
+			"path": "pages/comformation/comformation2/comformation2",
+			"style": {}
+		}, {
+			"path": "pages/comformation/payment/payment",
+			"style": {}
+		}, {
+			"path": "pages/spreaderMember/spreaderMember",
+			"style": {}
+		}, {
+			"path": "pages/index/detail/cart"
+		}, {
+			"path": "pages/index/detail/spreader"
+		}, {
+			"path": "pages/index/detail/member"
+		}, {
+			"path": "pages/index/detail/home"
+		}, {
+			"path": "pages/index/detail/retailer"
+		}, {
+			"path": "pages/index/detail/intergral"
+		}, {
+			"path": "pages/index/detail/ordermanage"
+		}, {
+			"path": "pages/index/detail/settlePlatform"
+		}, {
+			"path": "pages/index/detail/nearStore"
+		}, {
+			"path": "pages/commodityEvaluate/commodityEvaluate",
+			"style": {
+				"navigationBarTitleText":"点餐"
+			}
+		}
+	    ,{
+            "path" : "pages/intergralDetail/intergralDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/withdraw/withdraw",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "嘉美达共享商城",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

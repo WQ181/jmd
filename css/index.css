@@ -1,0 +1,277 @@
+
+/* 轮播图 */
+.swiper-item {
+	width: 100%;
+	height: 350upx;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+/* 公告（热点） */
+.redian {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.word {
+	position: absolute;
+	padding-right: 15rpx;
+	font-size: 35rpx;
+	font-family: tahoma;
+	font-weight: bolder;
+	/* height: 30rpx; */
+}
+
+.w1 {
+	/* top: 360rpx; */
+	left: 15rpx;
+	color: red;
+	padding: 1rpx;
+}
+
+.w2 {
+	/* top: 360rpx; */
+	left: 50rpx;
+	/* display: block; */
+	border-right: 1upx solid skyblue;
+}
+
+.redian-word {
+	margin: 0upx 0upx 15upx 20upx;
+	font-size: 38upx;
+	color: red;
+}
+
+.uni-padding-wrap {
+	/* width: 80%; */
+	width: 100%;
+	/* margin-left: 10upx; */
+}
+
+.word {
+	/* font-size: 30upx;
+	padding-left: 10upx;
+	color: red;
+	border-right: 1upx solid #ffc0cb; */
+	position: absolute;
+	padding-right: 15rpx;
+	font-size: 35rpx;
+	font-family: tahoma;
+	font-weight: bolder;
+}
+
+.redian-img {
+	/* margin-left: 20upx; */
+	position: absolute;
+	left: 110rpx;
+}
+
+.redian-infor {
+	/* font-size: 24upx;
+	color: red; */
+	position: absolute;
+	left: 140rpx;
+	font-size: 24upx;
+	color: red;
+}
+
+/* 列表 */
+.tabbar-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	background-color: white;
+}
+
+.tabbar-list-view {
+	width: 17%;
+	height: 140upx;
+	margin: 30upx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.list-img {
+	width: 90upx;
+	height: 90upx;
+}
+
+.list-name {
+	margin-top: 20upx;
+	font-size: 22upx;
+	color: #ff0000;
+	letter-spacing: 4upx;
+}
+
+/* search */
+.search-item {
+	width: 100%;
+	height: 100upx;
+	background-color: #f3f3f3;
+	/* margin-top: 10upx; */
+	display: flex;
+	align-content: center;
+	justify-content: flex-start;
+}
+
+.item {
+	width: 94%;
+	height: 60upx;
+	background-color: white;
+	margin: 20upx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.input {
+	font-size: 30upx;
+	margin-left: 10upx;
+	text-align: left;
+	/* color: #f3f3f3; */
+	width: 100%;
+}
+
+.search-btn {
+	font-size: 30upx;
+	width: 100upx;
+	height: 100%;
+	/* margin-left: 200upx; */
+	background-color: #F3F3F3;
+	text-align: center;
+}
+
+/* 会员以及商户入驻 */
+.vipAndshop {
+	width: 100%;
+	height: 100upx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+}
+
+.vip {
+	width: 48%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 34upx;
+	color: #808080;
+	border-right: 1upx solid #FADBD9;
+}
+
+.line {
+	width: 4%;
+	height: 90%;
+	margin-bottom: 40upx;
+}
+
+.shop {
+	width: 48%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 34upx;
+	color: #808080;
+}
+
+/* 推荐商家 */
+.recommand {
+	width: 100%;
+	height: 90upx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 20upx solid #f3f3f3;
+	background-color: white;
+}
+
+.goodicon {
+	width: 40upx;
+	height: 40upx;
+	margin-right: 10upx;
+}
+
+.recommand-text {
+	padding-left: 10upx;
+	color: #ff0000;
+}
+
+/* 商家列表 文强*/
+.shopList {
+	background-color: #F3F3F3;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.shop0 {
+	background-color: #ffffff;
+	width: 230upx;
+	height: 360upx;
+	margin: 20upx auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	justify-content: space-between;
+
+}
+
+.shopon {
+	height: 340upx;
+	display: flex;
+	flex-direction: column;
+}
+
+.shopimg {
+	width: 100%;
+	height: 280upx;
+}
+
+.name {
+	margin-top: 10upx;
+	margin-left: 10upx;
+	font-size: 23upx;
+	width: 190upx;
+	height: 120upx;
+}
+
+.priceandbuy {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	align-items: center;
+	margin-bottom: 10upx;
+}
+
+.price {
+	font-size: 30upx;
+	color: red;
+}
+
+.buy {
+	color: #FF5555;
+	width: 90upx;
+	text-align: center;
+	margin-left: 30upx;
+	border: 1upx solid #FF5555;
+}
+
+.recommendicon {
+	width: 80upx;
+	height: 80upx;
+	position: absolute;
+	z-index: 1;
+}

@@ -1,0 +1,87 @@
+page {
+	background-color: #F3F3F3;
+}
+
+.recharge-balance {
+	margin-top: 20upx;
+	background-color: white;
+}
+
+.balance {
+	margin: 40upx 20upx 40upx 20upx;
+	padding: 20upx 0 20upx 0;
+	border-bottom: 1upx solid #F3F3F3;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 34upx;
+	font-weight: 100;
+}
+
+.balance-word {
+	font-size: 36upx;
+}
+
+.recharge {
+	margin: 0upx 20upx 40upx 20upx;
+	padding-top: -10upx;
+	padding-bottom: 20upx;
+	border-bottom: 1upx solid #F3F3F3;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 34upx;
+	font-weight: 100;
+}
+
+.recharge-word {
+	font-size: 36upx;
+}
+
+/* 按钮 */
+.btn-word {
+	background-color: #CCCCCC;
+	margin: 40upx;
+	height: 100upx;
+	text-align: center;
+	border-radius: 20upx;
+	padding-top: 30upx;
+}
+
+.btn-word-recharge {
+	background-color: #F43F3B;
+	margin: 40upx;
+	height: 100upx;
+	text-align: center;
+	border-radius: 20upx;
+	padding-top: 30upx;
+	color: white;
+}
+
+.wxrecharge {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20upx;
+	background-color: white;
+}
+
+.wx-img {
+	width: 70upx;
+	height: 70upx;
+}
+
+.wx-code {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30upx;
+	font-size: 34upx;
+}
+
+.code2 {
+	color: #F9D7EA;
+}
+
+.wx-radio {
+	margin-left: 360upx;
+}
